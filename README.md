@@ -12,7 +12,7 @@
 ```sh
 $ clone https://github.com/vilnius/poliklinikos.git
 ```
-3.	Inicijuoatem kataloge
+3.	Atnaujinat duomensy kataloge iš repo 
 ```sh
 $ git pull origin master arba git pull –all
 ```
