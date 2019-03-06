@@ -8,7 +8,7 @@
 
 ## poliklininikoms:
 1.	Install GIT
-2.	Inicijuoti kataloge GIT 
+2.	Clone repo (only first time) 
 ```sh
 $ clone https://github.com/vilnius/poliklinikos.git
 ```
