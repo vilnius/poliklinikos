@@ -12,11 +12,11 @@
 ```sh
 $ clone https://github.com/vilnius/poliklinikos.git
 ```
-3.	Atnaujinat duomensy kataloge iš repo 
+3.	Atnaujinti duomenis kataloge iš repo 
 ```sh
 $ git pull origin master arba git pull –all
 ```
-4.	Paleidžiat skriptą, kuris atnaujina *.csv failus
+4.	Paleisti skriptą, kuris atnaujina *.csv failus
 ```sh
 $ git Select Data
 ```
@@ -29,7 +29,7 @@ $ git add . arba git add –all
 $ git commt -m 'institution name automatic update' 
 ```
 
-7.	Atnaujinat duomenys repo
+7.	Atnaujinti duomenys repo
 ```sh
 $ git push --all arba origin master
 ```
