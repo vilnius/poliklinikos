@@ -13,7 +13,7 @@ Clone repo (only first time)
 $ clone https://github.com/vilnius/poliklinikos.git
 ```
 
-###Atnaujinimo procedūra
+### Atnaujinimo procedūra
 1.	Atnaujinti duomenis kataloge iš repo 
 ```sh
 $ git pull origin master arba git pull –all
