@@ -7,29 +7,31 @@
 
 
 ## poliklininikoms:
-1.	Install GIT
-2.	Clone repo (only first time) 
+Install GIT
+Clone repo (only first time) 
 ```sh
 $ clone https://github.com/vilnius/poliklinikos.git
 ```
-3.	Atnaujinti duomenis kataloge iš repo 
+
+###Atnaujinimo procedūra
+1.	Atnaujinti duomenis kataloge iš repo 
 ```sh
 $ git pull origin master arba git pull –all
 ```
-4.	Paleisti skriptą, kuris atnaujina *.csv failus
+2.	Paleisti skriptą, kuris atnaujina *.csv failus
 ```sh
 $ git Select Data
 ```
-5. Add file contents to the index
+3. Add file contents to the index
 ```sh
 $ git add . arba git add –all
 ```
-6.	Record changes to the repository
+4.	Record changes to the repository
 ```sh
 $ git commt -m 'institution name automatic update' 
 ```
 
-7.	Atnaujinti duomenys repo
+5.	Atnaujinti duomenys repo
 ```sh
 $ git push --all arba origin master
 ```
