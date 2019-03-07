@@ -6,7 +6,7 @@
 * [InstitutionCode]_free_registration.csv - Šeimos daktaro nebuvimo darbe periodas 
 
 
-## poliklininikoms:
+## Poliklininikoms:
 Install GIT
 Clone repo (only first time) 
 ```sh
