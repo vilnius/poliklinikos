@@ -10,7 +10,7 @@
 Install GIT
 Clone repo (only first time) 
 ```sh
-$ clone https://github.com/vilnius/poliklinikos.git
+$ git clone https://github.com/vilnius/poliklinikos.git
 ```
 
 ### Atnaujinimo procedūra
@@ -28,7 +28,7 @@ $ git add . arba git add –all
 ```
 4.	Record changes to the repository
 ```sh
-$ git commt -m 'institution name automatic update' 
+$ git commit -m 'institution name automatic update' 
 ```
 
 5.	Atnaujinti duomenys repo
