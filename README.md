@@ -6,7 +6,7 @@
 * [InstitutionCode]_free_registration.csv - Šeimos daktaro nebuvimo darbe periodas 
 
 ## Konfiguruojamas kontroles interaktyvi lenta (test version)
-https://app.powerbi.com/view?r=eyJrIjoiYjYyODQ3NDYtOGFlNS00YWE5LWIxMTktNTA3ZjRhNzgwNmM5IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9
+[https://app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiYjYyODQ3NDYtOGFlNS00YWE5LWIxMTktNTA3ZjRhNzgwNmM5IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9)
 
 ## Poliklininikoms:
 Install GIT
