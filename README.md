@@ -1,10 +1,12 @@
-﻿# Public health data test
+﻿# Public health data
 
 ## Duomenų rinkiniai:
 * [InstitutionCode]_doctors_not_at_work.csv - Įstaigos šeimos daktarų sąrašas 
 * [InstitutionCode]_family_doctors_list.csv - Laisvo registracijos pas šeimos gydytoją – sugeneruotas priėmimo grafikas
 * [InstitutionCode]_free_registration.csv - Šeimos daktaro nebuvimo darbe periodas 
 
+## Konfiguruojamas kontroles interaktyvi lenta (test version)
+[https://app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiYjYyODQ3NDYtOGFlNS00YWE5LWIxMTktNTA3ZjRhNzgwNmM5IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9)
 
 ## Poliklininikoms:
 Install GIT
@@ -14,13 +16,15 @@ $ git clone https://github.com/vilnius/poliklinikos.git
 ```
 
 ### Atnaujinimo procedūra
-1.	Atnaujinti duomenis kataloge iš repo 
+1.	Update data from repo 
 ```sh
 $ git pull origin master arba git pull –all
 ```
-2.	Paleisti skriptą, kuris atnaujina *.csv failus
+2.	Run script, which create and update *.csv files
 ```sh
-$ git Select Data
+[InstitutionCode]_doctors_not_at_work.csv
+[InstitutionCode]_family_doctors_list.csv 
+[InstitutionCode]_free_registration.csv
 ```
 3. Add file contents to the index
 ```sh
@@ -35,3 +39,4 @@ $ git commit -m 'institution name automatic update'
 ```sh
 $ git push --all arba origin master
 ```
+
