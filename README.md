@@ -18,9 +18,11 @@ $ git clone https://github.com/vilnius/poliklinikos.git
 ```sh
 $ git pull origin master arba git pull –all
 ```
-2.	Paleisti skriptą, kuris atnaujina *.csv failus
+2.	Paleisti skriptą, kuris atrenka duomenis ir atnaujina *.csv failus
 ```sh
-$ git Select Data
+[InstitutionCode]_doctors_not_at_work.csv
+[InstitutionCode]_family_doctors_list.csv 
+[InstitutionCode]_free_registration.csv
 ```
 3. Add file contents to the index
 ```sh
