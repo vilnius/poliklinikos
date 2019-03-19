@@ -27,8 +27,12 @@ $ git pull origin master arba git pull –all
 [InstitutionCode]_free_registrations.csv
 ```
 3. Add file contents to the index
+
+If you change only files recomended
 ```sh
-$ git add . arba git add –all
+$ git add [InstitutionCode]_doctors_not_at_work.csv
+$ git add [InstitutionCode]_family_doctors_list.csv 
+$ git add [InstitutionCode]_free_registrations.csv
 ```
 4.	Record changes to the repository
 ```sh
