@@ -3,7 +3,7 @@
 ## Duomenų rinkiniai:
 * [InstitutionCode]_doctors_not_at_work.csv - Įstaigos šeimos daktarų sąrašas 
 * [InstitutionCode]_family_doctors_list.csv - Laisvo registracijos pas šeimos gydytoją – sugeneruotas priėmimo grafikas
-* [InstitutionCode]_free_registration.csv - Šeimos daktaro nebuvimo darbe periodas 
+* [InstitutionCode]_free_registrations.csv - Šeimos daktaro nebuvimo darbe periodas 
 
 ## Konfiguruojamas kontroles interaktyvi lenta (test version)
 [https://app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiYjYyODQ3NDYtOGFlNS00YWE5LWIxMTktNTA3ZjRhNzgwNmM5IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9)
@@ -24,7 +24,7 @@ $ git pull origin master arba git pull –all
 ```sh
 [InstitutionCode]_doctors_not_at_work.csv
 [InstitutionCode]_family_doctors_list.csv 
-[InstitutionCode]_free_registration.csv
+[InstitutionCode]_free_registrations.csv
 ```
 3. Add file contents to the index
 ```sh
