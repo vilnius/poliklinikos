@@ -1,4 +1,4 @@
-﻿# Public health data test
+﻿# Public health data
 
 ## Duomenų rinkiniai:
 * [InstitutionCode]_doctors_not_at_work.csv - Įstaigos šeimos daktarų sąrašas 
