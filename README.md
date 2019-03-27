@@ -1,9 +1,9 @@
 ﻿# Public health data
 
 ## Duomenų rinkiniai:
-[InstitutionCode]_doctors_not_at_work.csv - Šeimos gydytojo nebuvimo darbe periodas
-[InstitutionCode]_family_doctors_list.csv - Įstaigos šeimos gydytojų sąrašas
-[InstitutionCode]_free_registrations.csv - Laisvo registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
+*[InstitutionCode]_doctors_not_at_work.csv - Šeimos gydytojo nebuvimo darbe periodas
+*[InstitutionCode]_family_doctors_list.csv - Įstaigos šeimos gydytojų sąrašas
+*[InstitutionCode]_free_registrations.csv - Laisvo registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
 Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Template%20for%20doctos%20visits%20data
 
 ## Konfiguruojamas kontroles interaktyvi lenta (test version)
