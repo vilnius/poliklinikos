@@ -1,0 +1,9 @@
+[submodule "VMKL"]
+	path = VMKL
+	url = https://github.com/vilnius/VMKL.git
+[submodule "centro-poliklinika"]
+	path = centro-poliklinika
+	url = https://github.com/vilnius/centro-poliklinika
+[submodule "VRMMC"]
+	path = VRMMC
+	url = https://github.com/vilnius/VRMMC.git
