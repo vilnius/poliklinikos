@@ -36,7 +36,7 @@ $ git pull origin master arba git pull –all
 ```
 2.	Run script, which create and update *.csv files
 ```sh
-[InstitutionCode]_doctors_not_at_work.csv
+[InstitutionCode]_doctors_excluded.csv
 [InstitutionCode]_family_doctors_list.csv 
 [InstitutionCode]_free_registrations.csv
 ```
@@ -44,7 +44,7 @@ $ git pull origin master arba git pull –all
 
 If you change only files recomended
 ```sh
-$ git add [InstitutionCode]_doctors_not_at_work.csv
+$ git add [InstitutionCode]_doctors_excluded.csv
 $ git add [InstitutionCode]_family_doctors_list.csv 
 $ git add [InstitutionCode]_free_registrations.csv
 ```
