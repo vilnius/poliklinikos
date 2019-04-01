@@ -1,7 +1,7 @@
 # Public health data
 
 ## Duomenų rinkiniai:
-* [InstitutionCode]_doctors_not_at_work.csv - Šeimos gydytojo nebuvimo darbe periodas
+* [InstitutionCode]_doctors_excluded.csv - nevertinamu šeimos gydytojų sąrašas (nebuvimo darbe periodas, atostogos arba pavadavimas kito daktaro)
 * [InstitutionCode]_family_doctors_list.csv - Įstaigos šeimos gydytojų sąrašas
 * [InstitutionCode]_free_registrations.csv - Laisvo registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
 
