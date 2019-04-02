@@ -10,3 +10,6 @@
 [submodule "antakalnio-poliklinika"]
 	path = antakalnio-poliklinika
 	url = https://github.com/vilnius/antakalnio-poliklinika.git
+[submodule "karoliniskiu-poliklinika"]
+	path = karoliniskiu-poliklinika
+	url = https://github.com/vilnius/karoliniskiu-poliklinika
