@@ -16,6 +16,3 @@
 [submodule "naujininku-poliklinika"]
 	path = naujininku-poliklinika
 	url = https://github.com/vilnius/naujininku-poliklinika
-[submodule "seskines-poliklinika"]
-	path = seskines-poliklinika
-	url = https://github.com/vilnius/seskines-poliklinika
