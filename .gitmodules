@@ -20,3 +20,7 @@
 	path = seskines-poliklinika
 	url = https://github.com/vilnius/seskines-poliklinika.git
 	branch = master
+[submodule "grigiskiu-spc"]
+	path = grigiskiu-spc
+	url = https://github.com/vilnius/grigiskiu-spc.git
+	branch = master
