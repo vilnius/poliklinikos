@@ -11,12 +11,12 @@
 
 * [InstitutionCode]_family_doctors_list.csv - Įstaigos šeimos gydytojų sąrašas 
     - Taip - požymis, kurie dalyvauja finansavimo programoje
-    - Ne - požymius, kueire nedsalyvauja finansavimo programoje
-* [InstitutionCode]_free_registrations.csv - Laisvo registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
+    - Ne - požymis, kurie nedalyvauja finansavimo programoje
+* [InstitutionCode]_free_registrations.csv - Laisvos registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
 
 Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Template%20for%20doctos%20visits%20data
 
-## Konfiguruojamas kontroles interaktyvi lenta (test version)
+## Konfigūruojama kontrolės interaktyvi lenta (test version)
 [https://app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiYzdkMTkzMzYtZDllZi00MjkxLTg3ZmItOTJkMTMyZDdmMWE3IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9)
 
 ## Algoritmas finansavimo sutikrinimui
@@ -26,11 +26,11 @@ Skaičiuojant 7 dienas, neturi būti išskaičiuojami savaitgaliai, nes patekima
 1. Pasiimamas Įstaigos šeimos daktarų sąrašas (family_doctors_list.csv).
 2. Patikrinama, ar visi šeimos gydytojai turi laisvų laikų „Laisvos registracijos pas šeimos daktarą“ (free_registrations.csv) duomenų rinkinyje.
 3. Jei gydytojai neturi laisvų laikų, tuomet patikriname ar jis yra įtrauktas į nevertinamų šaimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje.
-    - Jei šeimos gydytojas tikrinimo periode yra įtrauktas į nevertinamų šaimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje, tuomet  patikrinimo rezultatų lentelėje pažymima atitinkamas požymis kartu su jo reikšme (A, AI, N, NI ...);
+    - Jei šeimos gydytojas tikrinimo periode yra įtrauktas į nevertinamų šeimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje, tuomet  patikrinimo rezultatų lentelėje pažymima atitinkamas požymis kartu su jo reikšme (A, AI, N, NI ...) (ir atliekami atitinkami pataisymai rezultatų patikrinimo lentoje istoriniams duomenims pagal pateisinimo specifiką(+5,-5 dienos ir t.t.));
     - Jei šeimos gydytojo nėra nedarbo periodo duomenų rinkinyje tikrintam periodui, tuomet tikrinimo datai patikrinimo rezultatų lentelėje prie gydytojo įrašomas požymis „Ne“ (neatitinka tvarkos aprašo punkto reikalavimo);
     - Jei gydytojas turi laisvų laikų, vykdomas 4 žingsnis. 
 4) Toliau tikrinami visi laikai „Laisvos registracijos“ duomenų rinkinyje. Nustatoma kiekvieno gydytojo artimiausia data, kada jis gali priimti pacientą.
-5) Jei nustatyta artimiausia datos ir patikrinimo datos skirtumas yra mažiau arba lygu 7 dienom, tuomet tikrinima nevertinamų šeimos gydytojų sąraše esantis požymis tai datai. Pagal  nurodytus terminustus  ir reikšmė. Jei atitinka reikšmė pažymime patikrinimo rezultatų lentelėje prie gydytojo įrašomas požymis „Taip“. Jei datos skirtumas yra daugiau nei 7 dienos, įrašoma „Ne“.
+5) Jei nustatytas artimiausios datos ir patikrinimo datos skirtumas yra mažiau arba lygu 7 dienom, tuomet tikrinima nevertinamų šeimos gydytojų sąraše esantis požymis tai datai. Pagal  nurodytus terminus ir reikšmė. Jei reikšmė atitinka, tai pažymime patikrinimo rezultatų lentelėje (prie gydytojo įrašomas požymis „Taip“). Jei datos skirtumas yra daugiau nei 7 dienos, įrašoma „Ne“.
 
 
 ## Poliklininikoms:
