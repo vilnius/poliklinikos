@@ -2,12 +2,12 @@
 
 ## Duomenų rinkiniai:
 * [InstitutionCode]_doctors_excluded.csv - nevertinamu šeimos gydytojų sąrašas (nebuvimo darbe periodas, atostogos arba pavadavimas kito daktaro)
-A – atostogos, kvalifikacijos tobulinimas
-AI – periodai iki ir po atostogų / kvalifikacijos tobulinimo + atostogos/ kvalifikacijos tobulinimo periodas (kai gydytojas nedirba 6 ir daugiau darbo dienų dėl atostogų ar kvalifikacijos tobulinimo,  nevertinami 5 darbo dienų iki planuoto nedarbo laikotarpio ir 5 darbo dienų po planuoto nedarbo laikotarpio duomenys. 
-N - nedarbingumas
-NI – nedarbingumas + periodas po nedarbingumo (kai gydytojas nedirba 6 ir daugiau darbo dienų dėl laikinojo nedarbingumo, nevertinami nedarbo laikotarpio ir 5 darbo dienų po laikino nedarbingumo duomenys.
-P – pavadavimas (kai gydytoją jam nesant 2 – 5 darbo dienas pavaduoja ne daugiau kaip 2 gydytojai, šių gydytojų duomenys tomis dienomis nevertinami).
-PI – pavadavimas + periodas po pavadavimo (kai gydytoją jam nesant 6 ir daugiau darbo dienų pavaduoja ne daugiau kaip 2 gydytojai, šių gydytojų duomenys pavadavimo laikotarpį ir 5 darbo dienas po jo nevertinami).
+- A – atostogos, kvalifikacijos tobulinimas
+- AI – periodai iki ir po atostogų / kvalifikacijos tobulinimo + atostogos/ kvalifikacijos tobulinimo periodas (kai gydytojas nedirba 6 ir daugiau darbo dienų dėl atostogų ar kvalifikacijos tobulinimo,  nevertinami 5 darbo dienų iki planuoto nedarbo laikotarpio ir 5 darbo dienų po planuoto nedarbo laikotarpio duomenys. 
+- N - nedarbingumas
+- NI – nedarbingumas + periodas po nedarbingumo (kai gydytojas nedirba 6 ir daugiau darbo dienų dėl laikinojo nedarbingumo, nevertinami nedarbo laikotarpio ir 5 darbo dienų po laikino nedarbingumo duomenys.
+- P – pavadavimas (kai gydytoją jam nesant 2 – 5 darbo dienas pavaduoja ne daugiau kaip 2 gydytojai, šių gydytojų duomenys tomis dienomis nevertinami).
+- PI – pavadavimas + periodas po pavadavimo (kai gydytoją jam nesant 6 ir daugiau darbo dienų pavaduoja ne daugiau kaip 2 gydytojai, šių gydytojų duomenys pavadavimo laikotarpį ir 5 darbo dienas po jo nevertinami).
 
 * [InstitutionCode]_family_doctors_list.csv - Įstaigos šeimos gydytojų sąrašas, kurie dalyvauja finansavimo programoje
 * [InstitutionCode]_free_registrations.csv - Laisvo registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
