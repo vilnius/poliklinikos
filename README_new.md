@@ -23,7 +23,7 @@ Kiekvieną darbo diena daromas duomenų atrinkimas ir skaičiavimas (6 val. ryte
 Skaičiuojant 7 dienas, neturi būti išskaičiuojami savaitgaliai, nes patekimas turi būti per 7 kalendorines dienas.
 
 1. Pasiimamas Įstaigos šeimos daktarų sąrašas (family_doctors_list.csv).
-2. Patikrinama, ar visi šeimos gydytojai turi laisvų laikų „Laisvos registracijos pas šeimos daktarą“ (free_registrations.csv) duomenų rinkinyje.
+2. Patikrinama, ar visi finansavimo programoje dalyvaujantys šeimos gydytojai turi laisvų laikų „Laisvos registracijos pas šeimos daktarą“ (free_registrations.csv) duomenų rinkinyje.
 3. Jei gydytojai neturi laisvų laikų, tuomet patikriname ar jis yra įtrauktas į nevertinamų šaimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje.
     - Jei šeimos gydytojas tikrinimo periode yra įtrauktas į nevertinamų šeimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje, tuomet  patikrinimo rezultatų lentelėje pažymima atitinkamas požymis kartu su jo reikšme (A, AI, N, NI ...) (ir atliekami atitinkami pataisymai rezultatų patikrinimo lentoje istoriniams duomenims pagal pateisinimo specifiką(+5,-5 dienos ir t.t.));
     - Jei šeimos gydytojo nėra nedarbo periodo duomenų rinkinyje tikrintam periodui, tuomet tikrinimo datai patikrinimo rezultatų lentelėje prie gydytojo įrašomas požymis „Ne“ (neatitinka tvarkos aprašo punkto reikalavimo);
