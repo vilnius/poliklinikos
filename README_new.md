@@ -14,10 +14,9 @@
     - Ne - požymis, kurie nedalyvauja finansavimo programoje
 * [InstitutionCode]_free_registrations.csv - Laisvos registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
 
-Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Template%20for%20doctos%20visits%20data
+Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Templates%20for%20doctors%20financial%20control
 
-## Konfigūruojama kontrolės interaktyvi lenta (test version)
-[https://app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiYzdkMTkzMzYtZDllZi00MjkxLTg3ZmItOTJkMTMyZDdmMWE3IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9)
+## Konfigūruojama kontrolės interaktyvi lenta 
 
 ## Algoritmas finansavimo sutikrinimui
 Kiekvieną diena daromas duomenų atrinkimas ir skaičiavimas (6 val. ryte).
