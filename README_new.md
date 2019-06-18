@@ -19,7 +19,7 @@ Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti ra
 ## Konfigūruojama kontrolės interaktyvi lenta 
 
 ## Algoritmas finansavimo sutikrinimui
-Kiekvieną diena daromas duomenų atrinkimas ir skaičiavimas (6 val. ryte).
+Kiekvieną darbo diena daromas duomenų atrinkimas ir skaičiavimas (6 val. ryte).
 Skaičiuojant 7 dienas, neturi būti išskaičiuojami savaitgaliai, nes patekimas turi būti per 7 kalendorines dienas.
 
 1. Pasiimamas Įstaigos šeimos daktarų sąrašas (family_doctors_list.csv).
