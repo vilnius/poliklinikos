@@ -14,17 +14,16 @@
     - Ne - požymis, kurie nedalyvauja finansavimo programoje
 * [InstitutionCode]_free_registrations.csv - Laisvos registracijos pas šeimos gydytoją (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
 
-Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Template%20for%20doctos%20visits%20data
+Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Templates%20for%20doctors%20financial%20control
 
-## Konfigūruojama kontrolės interaktyvi lenta (test version)
-[https://app.powerbi.com](https://app.powerbi.com/view?r=eyJrIjoiYzdkMTkzMzYtZDllZi00MjkxLTg3ZmItOTJkMTMyZDdmMWE3IiwidCI6ImFmZjM2MzMxLTNlNWUtNDdlOC1hZjkzLTE4NTFkNmQxZmUzYiIsImMiOjh9)
+## Konfigūruojama kontrolės interaktyvi lenta 
 
 ## Algoritmas finansavimo sutikrinimui
-Kiekvieną diena daromas duomenų atrinkimas ir skaičiavimas (6 val. ryte).
+Kiekvieną darbo diena daromas duomenų atrinkimas ir skaičiavimas (6 val. ryte).
 Skaičiuojant 7 dienas, neturi būti išskaičiuojami savaitgaliai, nes patekimas turi būti per 7 kalendorines dienas.
 
 1. Pasiimamas Įstaigos šeimos daktarų sąrašas (family_doctors_list.csv).
-2. Patikrinama, ar visi šeimos gydytojai turi laisvų laikų „Laisvos registracijos pas šeimos daktarą“ (free_registrations.csv) duomenų rinkinyje.
+2. Patikrinama, ar visi finansavimo programoje dalyvaujantys šeimos gydytojai turi laisvų laikų „Laisvos registracijos pas šeimos daktarą“ (free_registrations.csv) duomenų rinkinyje.
 3. Jei gydytojai neturi laisvų laikų, tuomet patikriname ar jis yra įtrauktas į nevertinamų šaimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje.
     - Jei šeimos gydytojas tikrinimo periode yra įtrauktas į nevertinamų šeimos gydytojų sąrašą (doctors_excluded.csv) duomenų rinkinyje, tuomet  patikrinimo rezultatų lentelėje pažymima atitinkamas požymis kartu su jo reikšme (A, AI, N, NI ...) (ir atliekami atitinkami pataisymai rezultatų patikrinimo lentoje istoriniams duomenims pagal pateisinimo specifiką(+5,-5 dienos ir t.t.));
     - Jei šeimos gydytojo nėra nedarbo periodo duomenų rinkinyje tikrintam periodui, tuomet tikrinimo datai patikrinimo rezultatų lentelėje prie gydytojo įrašomas požymis „Ne“ (neatitinka tvarkos aprašo punkto reikalavimo);
