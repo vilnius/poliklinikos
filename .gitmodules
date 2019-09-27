@@ -24,3 +24,5 @@
 	path = grigiskiu-spc
 	url = https://github.com/vilnius/grigiskiu-spc.git
 	branch = master
+[submodule "https://github.com/vilnius/naujosios-vilnios-poliklinika.git"]
+	branch = master
