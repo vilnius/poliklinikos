@@ -32,3 +32,15 @@
 	branch = master
 [submodule "https://github.com/sveikatos-klinika/registrations_giles.git"]
 	branch = master
+[submodule "registrations_sveikatos-klinika"]
+	path = registrations_sveikatos-klinika
+	url = https://github.com/sveikatos-klinika/registrations_sveikatos-klinika.git
+	branch = master
+[submodule "registrations_gyda"]
+	path = registrations_gyda
+	url = https://github.com/sveikatos-klinika/registrations_gyda.git
+	branch = master
+[submodule "registrations_giles"]
+	path = registrations_giles
+	url = https://github.com/sveikatos-klinika/registrations_giles.git
+	branch = master
