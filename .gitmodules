@@ -26,3 +26,9 @@
 	branch = master
 [submodule "https://github.com/vilnius/naujosios-vilnios-poliklinika.git"]
 	branch = master
+[submodule "https://github.com/sveikatos-klinika/registrations_sveikatos-klinika.git"]
+	branch = master
+[submodule "https://github.com/sveikatos-klinika/registrations_gyda.git"]
+	branch = master
+[submodule "https://github.com/sveikatos-klinika/registrations_giles.git"]
+	branch = master
