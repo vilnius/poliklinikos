@@ -2,8 +2,56 @@
 
 ## Duomenų rinkiniai:
 * [InstitutionCode]_doctors_excluded.csv - nevertinamų šeimos gydytojų (vidaus ligų, vaikų ligų) gydytojų (toliau - ŠG) sąrašas (nebuvimo darbe periodas: ŠG atostogos, laikinas nedarbingumas, kvalifikacijos tobulinimas)
+| Laukas | Tipas | Pastabos |
+| ------ | ----- | ---- |
+| Įstaigos kodas | Bigint | |
+| Gydytojo_id | Bigint | |
+| Data nuo | Date | | 
+| Data iki | Date | |
+| Įrašo sukūrimo data |	Timestamp | |
+
 * [InstitutionCode]_family_doctors_list.csv - Įstaigos ŠG sąrašas  (dalyvaujančių finansavimo programoje)
+| Laukas | Tipas | Pastabos |
+| ------ | ----- | ---- |
+| Įstaigos kodas | Bigint | |
+| Gydytojo_id | Bigint | |
+| Įrašo sukūrimo data |	Timestamp | |
+| Apylinkės tipas | Int | |
+| Etatinis darbo krūvis | Double | įformintas darbo krūvis ataskaitinio laikotarpio 1 dieną |
+
 * [InstitutionCode]_free_registrations.csv - Laisvos registracijos pirminiam vizitui pas ŠG, dalyvaujančių finansavimo programoje, priemimo grafikas (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
+| Laukas | Tipas | Pastabos |
+| ------ | ----- | ---- |
+| Įstaigos kodas | Bigint | |
+| Gydytojo_id | Bigint | |
+| Laisvos registracijos data| Timestamp | |
+| Įrašo sukūrimo data |	Timestamp | |
+
+* [InstitutionCode]_family_doctors_patients.csv - Duomenys teikiami pasibaigus ataskaitiniam laikotarpiui, t.y. einamojo laikotarpio pradžioje ne vėliau kaip iki 10 einamojo laikotarpio kalendorinės dienos
+| Laukas | Tipas | Pastabos |
+| ------ | ----- | ---- |
+| Įstaigos kodas | Bigint | |
+| Ataskaitinio laikotarpio pradžia | Date | |
+| Ataskaitinio laikotarpio pabaiga | Date | |
+| Gydytojo ID | Bigint | |
+| Prisirašiusių prie gydytojo gyventojų skaičius | Int | prisirašiusių  privalomuoju sveikatos draudimu draustų gyventojų skaičius paskutinę dieną prieš ataskaitinio laikotarpio pirmo mėn. 1 d. (jeigu pavaduojant ilgalaikėse atostogose esantį gydytoją pacientai yra perskirstyti konkretiems gydytojams, tai jie priskiriami prisirašiusiems; jei pavadavimas trumpalaikis (atostogos, liga), arba jei pavaduoja bet kurie gydytojai, t.y. gyventojai nepriskirti konkretiems gydytojams, tuomet teikiamas tik prie to gydytojo prisirašiusių privalomuoju sveikatos draudimu draustų pacientų skaičius)  |
+| Gydytojo viso ataskaitinio laikotarpio darbo valandų kiekis viso | Double | |
+| Įrašo sukūrimo data |	Timestamp | |
+
+* [InstitutionCode]_family_doctors_visits_hours (teikiama kiekvieną dieną už praėjusią dieną)
+| Laukas | Tipas | Pastabos |
+| ------ | ----- | ---- |
+| Įstaigos kodas | Bigint | |
+| Data | Date | |
+| Gydytojo ID | Bigint | |
+| Pirminių vizitų trukmė sveikatos įstaigoje minutėmis  | Int | tiesioginio kontakto ir nuotolinės konsultacijos |
+| Priimtų pacientų pirminiams vizitams*** skaičius | Int | |
+| Pirminių ir kitų (kartotinių) vizitų trukmė sveikatos įstaigoje trukmė minutėmis | Int | visų vizitų trukmė pagal darbo grafiką (įeina visi vizitai, taip pat ir nuotolinės konsultacijos be dokumentų tvarkymo, pertraukų laiko, papildomų laikų ir pan.) |
+| Viso priimtų pacientų skaičius | Int | |
+| Darbo laikas nuo | String | |
+| Darbo laikas iki | String | |
+| Įrašo sukūrimo data | Timestamp | |
+
 
 
 Pastaba. Neturint Programinės įrangos iš kur paimti duomenis, juos suvesti rankiniu būdu pagal pateiktą formatą: https://github.com/vilnius/poliklinikos/tree/master/data/Template%20for%20doctos%20visits%20data
