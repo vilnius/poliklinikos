@@ -2,6 +2,7 @@
 
 ## Duomenų rinkiniai:
 * [InstitutionCode]_doctors_excluded.csv - nevertinamų šeimos gydytojų (vidaus ligų, vaikų ligų) gydytojų (toliau - ŠG) sąrašas (nebuvimo darbe periodas: ŠG atostogos, laikinas nedarbingumas, kvalifikacijos tobulinimas) 
+
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
