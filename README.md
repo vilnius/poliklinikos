@@ -12,6 +12,7 @@
 | Įrašo sukūrimo data |	Timestamp | |
 
 * [InstitutionCode]_family_doctors_list.csv - Įstaigos ŠG sąrašas  (dalyvaujančių finansavimo programoje) 
+
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
@@ -21,6 +22,7 @@
 | Etatinis darbo krūvis | Double | įformintas darbo krūvis ataskaitinio laikotarpio 1 dieną |
 
 * [InstitutionCode]_free_registrations.csv - Laisvos registracijos pirminiam vizitui pas ŠG, dalyvaujančių finansavimo programoje, priemimo grafikas (sugeneruotas priėmimo grafikas 30 k. d. į priekį neįskaitant pateikimo dienos)
+
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
@@ -29,6 +31,7 @@
 | Įrašo sukūrimo data |	Timestamp | |
 
 * [InstitutionCode]_family_doctors_patients.csv - Duomenys teikiami pasibaigus ataskaitiniam laikotarpiui, t.y. einamojo laikotarpio pradžioje ne vėliau kaip iki 10 einamojo laikotarpio kalendorinės dienos
+
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
@@ -40,6 +43,7 @@
 | Įrašo sukūrimo data |	Timestamp | |
 
 * [InstitutionCode]_family_doctors_visits_hours (teikiama kiekvieną dieną už praėjusią dieną)
+
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
