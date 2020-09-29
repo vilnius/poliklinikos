@@ -1,16 +1,16 @@
 # Public health data
 
 ## Duomenų rinkiniai:
-* [InstitutionCode]_doctors_excluded.csv - nevertinamų šeimos gydytojų (vidaus ligų, vaikų ligų) gydytojų (toliau - ŠG) sąrašas (nebuvimo darbe periodas: ŠG atostogos, laikinas nedarbingumas, kvalifikacijos tobulinimas)
+* [InstitutionCode]_doctors_excluded.csv - nevertinamų šeimos gydytojų (vidaus ligų, vaikų ligų) gydytojų (toliau - ŠG) sąrašas (nebuvimo darbe periodas: ŠG atostogos, laikinas nedarbingumas, kvalifikacijos tobulinimas) 
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
 | Gydytojo_id | Bigint | |
-| Data nuo | Date | | 
+| Data nuo | Date | |
 | Data iki | Date | |
 | Įrašo sukūrimo data |	Timestamp | |
 
-* [InstitutionCode]_family_doctors_list.csv - Įstaigos ŠG sąrašas  (dalyvaujančių finansavimo programoje)
+* [InstitutionCode]_family_doctors_list.csv - Įstaigos ŠG sąrašas  (dalyvaujančių finansavimo programoje) 
 | Laukas | Tipas | Pastabos |
 | ------ | ----- | ---- |
 | Įstaigos kodas | Bigint | |
